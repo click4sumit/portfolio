@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-// import { Menu, X } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -42,12 +42,16 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-gray-900 bg-opacity-90 shadow-md">
       <div className="container mx-auto px-6 py-3">
         <div className="flex justify-between items-center">
-          <a href="#" className="text-2xl font-bold text-white">Sumit</a>
+
+          {!isMenuOpen && (
+            <a href="#" className="text-2xl font-bold text-white">Sumit</a>
+          )}
+          
           <button 
             className="text-gray-300 hover:text-purple-400 focus:outline-none sm:hidden"
             onClick={toggleMenu}
           >
-            {/* {isMenuOpen ? <X size={24} /> : <Menu size={24} />} */}
+            {isMenuOpen ? <X className='mb-28' size={36} /> : <Menu size={36} />}
           </button>
           <nav className={`${isMenuOpen ? 'block' : 'hidden'} sm:block`}>
             <ul className="flex flex-col sm:flex-row sm:space-x-6 space-y-2 sm:space-y-0">

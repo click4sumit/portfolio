@@ -7,13 +7,10 @@ import HeroSection from "./HeroSection"
 import ProjectSection from "./ProjectSection"
 import SkillsSection from "./SkillsSection"
 
-export default function Main (props) {
+export default function Main () {
     return (
         <div className="bg-white">
-            <Header
-                {...props}
-            />
-            
+            <Header />
             <HeroSection/>
             <AboutSection/>
             <SkillsSection/>
