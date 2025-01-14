@@ -20,16 +20,4 @@ export default function Main () {
             <Footer/>
         </div>
   )
-
-
-
-
-
-
-
-
-
-
-
-
 }
