@@ -44,7 +44,7 @@ body {
 }
 
 .custom-cursor {
-  background-color: yellow;
+  background-color: purple;
   width: 15px;
   height: 15px;
   /* border: 2px solid rgb(var(--primary)); */
@@ -62,4 +62,8 @@ body {
 
 a, button {
   cursor: pointer;
+}
+
+p, h1, h2, h3, h4, h5, h6, span, li {
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
