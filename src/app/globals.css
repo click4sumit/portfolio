@@ -67,3 +67,10 @@ a, button {
 p, h1, h2, h3, h4, h5, h6, span, li {
   transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
+
+@media screen and (max-width : 600px){
+  .custom-cursor {
+    display: none;
+  }
+}
+
