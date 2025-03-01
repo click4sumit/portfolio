@@ -14,15 +14,36 @@ export default function ProjectSection() {
             title: "School Website",
             link: "https://school-website-alpha-sooty.vercel.app/",
             description: "A school website with react, node, mongodb",
-            image: "https://images.unsplash.com/photo-1736131660777-8b7aa6bb0efe?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: "https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },
         {
             title: "Fully Responsive Website",
             link: "https://responsive-website-pied-psi.vercel.app/",
             description: "Website based on Mern stack ",
-            image: "https://images.unsplash.com/photo-1713427607338-8edc529eeaa4?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          },
+            image: "https://plus.unsplash.com/premium_photo-1683288662040-5ca51d0880b2?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        },
 
+        {
+            title: "Parallax Website",
+            link: "https://p3-parallax-website.netlify.app/",
+            description: "Website based on Parallax effect",
+            image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        },
+
+        {
+            title: "Background Color Code",
+            link: "https://background-color-code.netlify.app/",
+            description: "Applocation to get color code",
+            image: "https://images.unsplash.com/photo-1524440914234-440f66215e1a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        },
+
+        {
+            title: "Calculator",
+            link: "https://p4-online-calculator.netlify.app/",
+            description: "Calculator with react",
+            image: "https://images.unsplash.com/photo-1611125832047-1d7ad1e8e48f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        },
+          
 
     ]
     
@@ -36,7 +57,7 @@ export default function ProjectSection() {
                             projects.map((project, index) => (
                                 <div key={index} className="bg-gray-900 rounded-lg overflow-hidden shadow-md">
                                     <Link href={project.link} target="blank">
-                                        <img src={project.image} alt={project.title} width={300} height={200} className="w-full" />
+                                        <img src={project.image} alt={project.title} className="w-full h-60 w-96" />
                                         <div className="p-4">
                                             <h3 className="text-xl font-semibold mb-2 text-purple-400">{project.title}</h3>
                                             <p className="text-gray-300">{project.description}</p>
@@ -52,7 +73,7 @@ export default function ProjectSection() {
         
     )
 
-
+}
 
 
 
