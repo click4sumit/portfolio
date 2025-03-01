@@ -14,20 +14,20 @@ export default function ProjectSection() {
             title: "School Website",
             link: "https://school-website-alpha-sooty.vercel.app/",
             description: "A school website with react, node, mongodb",
-            image: "https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: "https://images.unsplash.com/photo-1611125832047-1d7ad1e8e48f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },
         {
             title: "Fully Responsive Website",
             link: "https://responsive-website-pied-psi.vercel.app/",
             description: "Website based on Mern stack ",
-            image: "https://plus.unsplash.com/premium_photo-1683288662040-5ca51d0880b2?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: "https://images.unsplash.com/photo-1611125832047-1d7ad1e8e48f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },
 
         {
             title: "Parallax Website",
             link: "https://p3-parallax-website.netlify.app/",
             description: "Website based on Parallax effect",
-            image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: "https://images.unsplash.com/photo-1611125832047-1d7ad1e8e48f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },
 
         {
